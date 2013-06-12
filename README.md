@@ -19,7 +19,7 @@ Add the following lines to your `composer.json` file and then run `php composer.
 ```json
 {
     "require": {
-        "fresh/doctrine-enum-bundle": "dev-master"
+        "fresh/doctrine-enum-bundle": "5.3.*@dev"
     }
 }
 ```
