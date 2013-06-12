@@ -1,6 +1,6 @@
 # FreshDoctrineEnumBundle
 
-[![Build Status](https://secure.travis-ci.org/fre5h/DoctrineEnumBundle.png?branch=master)](https://travis-ci.org/fre5h/DoctrineEnumBundle)
+[![Build Status](https://secure.travis-ci.org/fre5h/DoctrineEnumBundle.png?branch=5.3)](https://travis-ci.org/fre5h/DoctrineEnumBundle)
 
 Doctrine2 ENUM type for Symfony2 applications.
 
