@@ -113,6 +113,6 @@ abstract class AbstractEnumType extends Type
      */
     public static function getReadableValue($value)
     {
-        return isset(static::getChoices()[$value]) ? static::getChoices()[$value] : null;
+        return isset(self::$choices[$value]) ? self::$choices[$value] : null;
     }
 }

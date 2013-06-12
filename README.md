@@ -7,7 +7,7 @@ Doctrine2 ENUM type for Symfony2 applications.
 ## Requirements
 
 * Symfony 2.1
-* PHP 5.4
+* PHP 5.3
 * Doctrine 2.2
 
 ## Installation
