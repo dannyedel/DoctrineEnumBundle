@@ -44,6 +44,11 @@ abstract class AbstractEnumType extends Type
      */
     public function convertToDatabaseValue($value, AbstractPlatform $platform)
     {
+		/* Allow a NULL value, for optional (i.e. nullable) ENUMs */
+		if ($value === null )
+			return $value;
+		/* If the value is non-null, it must be one of the allowed values */
+
         if (!in_array($value, $this->getValues())) {
             throw new \InvalidArgumentException(sprintf('Invalid value "%s" for ENUM %s', $value, $this->getName()));
         }
